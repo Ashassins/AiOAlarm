@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C51AA002950FA10000274D8 /* AiOAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51A9FF2950FA10000274D8 /* AiOAlarmApp.swift */; };
+		8C51AA022950FA10000274D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA012950FA10000274D8 /* ContentView.swift */; };
+		8C51AA042950FA13000274D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C51AA032950FA13000274D8 /* Assets.xcassets */; };
+		8C51AA072950FA13000274D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C51AA062950FA13000274D8 /* Preview Assets.xcassets */; };
+		8C51AA112950FA13000274D8 /* AiOAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA102950FA13000274D8 /* AiOAlarmTests.swift */; };
+		8C51AA1B2950FA13000274D8 /* AiOAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */; };
+		8C51AA1D2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C51AA0D2950FA13000274D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C51A9F42950FA10000274D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C51A9FB2950FA10000274D8;
+			remoteInfo = AiOAlarm;
+		};
+		8C51AA172950FA13000274D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C51A9F42950FA10000274D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C51A9FB2950FA10000274D8;
+			remoteInfo = AiOAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C51A9FC2950FA10000274D8 /* AiOAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiOAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51A9FF2950FA10000274D8 /* AiOAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmApp.swift; sourceTree = "<group>"; };
+		8C51AA012950FA10000274D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C51AA032950FA13000274D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C51AA062950FA13000274D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C51AA0C2950FA13000274D8 /* AiOAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiOAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51AA102950FA13000274D8 /* AiOAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmTests.swift; sourceTree = "<group>"; };
+		8C51AA162950FA13000274D8 /* AiOAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiOAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmUITests.swift; sourceTree = "<group>"; };
+		8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C51A9F92950FA10000274D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51AA092950FA13000274D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51AA132950FA13000274D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C51A9F32950FA10000274D8 = {
+			isa = PBXGroup;
+			children = (
+				8C51A9FE2950FA10000274D8 /* AiOAlarm */,
+				8C51AA0F2950FA13000274D8 /* AiOAlarmTests */,
+				8C51AA192950FA13000274D8 /* AiOAlarmUITests */,
+				8C51A9FD2950FA10000274D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C51A9FD2950FA10000274D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51A9FC2950FA10000274D8 /* AiOAlarm.app */,
+				8C51AA0C2950FA13000274D8 /* AiOAlarmTests.xctest */,
+				8C51AA162950FA13000274D8 /* AiOAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C51A9FE2950FA10000274D8 /* AiOAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				8C51A9FF2950FA10000274D8 /* AiOAlarmApp.swift */,
+				8C51AA012950FA10000274D8 /* ContentView.swift */,
+				8C51AA032950FA13000274D8 /* Assets.xcassets */,
+				8C51AA052950FA13000274D8 /* Preview Content */,
+			);
+			path = AiOAlarm;
+			sourceTree = "<group>";
+		};
+		8C51AA052950FA13000274D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C51AA062950FA13000274D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C51AA0F2950FA13000274D8 /* AiOAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C51AA102950FA13000274D8 /* AiOAlarmTests.swift */,
+			);
+			path = AiOAlarmTests;
+			sourceTree = "<group>";
+		};
+		8C51AA192950FA13000274D8 /* AiOAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */,
+				8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */,
+			);
+			path = AiOAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C51A9FB2950FA10000274D8 /* AiOAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51AA202950FA13000274D8 /* Build configuration list for PBXNativeTarget "AiOAlarm" */;
+			buildPhases = (
+				8C51A9F82950FA10000274D8 /* Sources */,
+				8C51A9F92950FA10000274D8 /* Frameworks */,
+				8C51A9FA2950FA10000274D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiOAlarm;
+			productName = AiOAlarm;
+			productReference = 8C51A9FC2950FA10000274D8 /* AiOAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C51AA0B2950FA13000274D8 /* AiOAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51AA232950FA13000274D8 /* Build configuration list for PBXNativeTarget "AiOAlarmTests" */;
+			buildPhases = (
+				8C51AA082950FA13000274D8 /* Sources */,
+				8C51AA092950FA13000274D8 /* Frameworks */,
+				8C51AA0A2950FA13000274D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C51AA0E2950FA13000274D8 /* PBXTargetDependency */,
+			);
+			name = AiOAlarmTests;
+			productName = AiOAlarmTests;
+			productReference = 8C51AA0C2950FA13000274D8 /* AiOAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C51AA152950FA13000274D8 /* AiOAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51AA262950FA13000274D8 /* Build configuration list for PBXNativeTarget "AiOAlarmUITests" */;
+			buildPhases = (
+				8C51AA122950FA13000274D8 /* Sources */,
+				8C51AA132950FA13000274D8 /* Frameworks */,
+				8C51AA142950FA13000274D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C51AA182950FA13000274D8 /* PBXTargetDependency */,
+			);
+			name = AiOAlarmUITests;
+			productName = AiOAlarmUITests;
+			productReference = 8C51AA162950FA13000274D8 /* AiOAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C51A9F42950FA10000274D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8C51A9FB2950FA10000274D8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C51AA0B2950FA13000274D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8C51A9FB2950FA10000274D8;
+					};
+					8C51AA152950FA13000274D8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8C51A9FB2950FA10000274D8;
+					};
+				};
+			};
+			buildConfigurationList = 8C51A9F72950FA10000274D8 /* Build configuration list for PBXProject "AiOAlarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C51A9F32950FA10000274D8;
+			productRefGroup = 8C51A9FD2950FA10000274D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C51A9FB2950FA10000274D8 /* AiOAlarm */,
+				8C51AA0B2950FA13000274D8 /* AiOAlarmTests */,
+				8C51AA152950FA13000274D8 /* AiOAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C51A9FA2950FA10000274D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51AA072950FA13000274D8 /* Preview Assets.xcassets in Resources */,
+				8C51AA042950FA13000274D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51AA0A2950FA13000274D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51AA142950FA13000274D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C51A9F82950FA10000274D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51AA022950FA10000274D8 /* ContentView.swift in Sources */,
+				8C51AA002950FA10000274D8 /* AiOAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51AA082950FA13000274D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51AA112950FA13000274D8 /* AiOAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51AA122950FA13000274D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51AA1D2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift in Sources */,
+				8C51AA1B2950FA13000274D8 /* AiOAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C51AA0E2950FA13000274D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C51A9FB2950FA10000274D8 /* AiOAlarm */;
+			targetProxy = 8C51AA0D2950FA13000274D8 /* PBXContainerItemProxy */;
+		};
+		8C51AA182950FA13000274D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C51A9FB2950FA10000274D8 /* AiOAlarm */;
+			targetProxy = 8C51AA172950FA13000274D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C51AA1E2950FA13000274D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C51AA1F2950FA13000274D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C51AA212950FA13000274D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiOAlarm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashassins.AiOAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C51AA222950FA13000274D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiOAlarm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashassins.AiOAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C51AA242950FA13000274D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashassins.AiOAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiOAlarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AiOAlarm";
+			};
+			name = Debug;
+		};
+		8C51AA252950FA13000274D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashassins.AiOAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiOAlarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AiOAlarm";
+			};
+			name = Release;
+		};
+		8C51AA272950FA13000274D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashassins.AiOAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AiOAlarm;
+			};
+			name = Debug;
+		};
+		8C51AA282950FA13000274D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashassins.AiOAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AiOAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C51A9F72950FA10000274D8 /* Build configuration list for PBXProject "AiOAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51AA1E2950FA13000274D8 /* Debug */,
+				8C51AA1F2950FA13000274D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51AA202950FA13000274D8 /* Build configuration list for PBXNativeTarget "AiOAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51AA212950FA13000274D8 /* Debug */,
+				8C51AA222950FA13000274D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51AA232950FA13000274D8 /* Build configuration list for PBXNativeTarget "AiOAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51AA242950FA13000274D8 /* Debug */,
+				8C51AA252950FA13000274D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51AA262950FA13000274D8 /* Build configuration list for PBXNativeTarget "AiOAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51AA272950FA13000274D8 /* Debug */,
+				8C51AA282950FA13000274D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C51A9F42950FA10000274D8 /* Project object */;
+}
