@@ -14,6 +14,7 @@
 		8C51AA112950FA13000274D8 /* AiOAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA102950FA13000274D8 /* AiOAlarmTests.swift */; };
 		8C51AA1B2950FA13000274D8 /* AiOAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */; };
 		8C51AA1D2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */; };
+		8C51AA2A2950FAC4000274D8 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA292950FAC4000274D8 /* Alarm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8C51AA162950FA13000274D8 /* AiOAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiOAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmUITests.swift; sourceTree = "<group>"; };
 		8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C51AA292950FAC4000274D8 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				8C51A9FF2950FA10000274D8 /* AiOAlarmApp.swift */,
+				8C51AA292950FAC4000274D8 /* Alarm.swift */,
 				8C51AA012950FA10000274D8 /* ContentView.swift */,
 				8C51AA032950FA13000274D8 /* Assets.xcassets */,
 				8C51AA052950FA13000274D8 /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				8C51AA022950FA10000274D8 /* ContentView.swift in Sources */,
 				8C51AA002950FA10000274D8 /* AiOAlarmApp.swift in Sources */,
+				8C51AA2A2950FAC4000274D8 /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
