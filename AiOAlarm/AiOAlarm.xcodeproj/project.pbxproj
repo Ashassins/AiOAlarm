@@ -17,6 +17,7 @@
 		8C51AA2A2950FAC4000274D8 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA292950FAC4000274D8 /* Alarm.swift */; };
 		8C51AA2E29518B0C000274D8 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2D29518B0C000274D8 /* Sounds.swift */; };
 		8C51AA3029518B2B000274D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2F29518B2B000274D8 /* User.swift */; };
+		8C51AA3229522AEF000274D8 /* AlarmNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA3129522AEF000274D8 /* AlarmNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8C51AA292950FAC4000274D8 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		8C51AA2D29518B0C000274D8 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		8C51AA2F29518B2B000274D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8C51AA3129522AEF000274D8 /* AlarmNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				8C51A9FF2950FA10000274D8 /* AiOAlarmApp.swift */,
 				8C51AA292950FAC4000274D8 /* Alarm.swift */,
+				8C51AA3129522AEF000274D8 /* AlarmNotification.swift */,
 				8C51AA2F29518B2B000274D8 /* User.swift */,
 				8C51AA2D29518B0C000274D8 /* Sounds.swift */,
 				8C51AA012950FA10000274D8 /* ContentView.swift */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C51AA3229522AEF000274D8 /* AlarmNotification.swift in Sources */,
 				8C51AA022950FA10000274D8 /* ContentView.swift in Sources */,
 				8C51AA2E29518B0C000274D8 /* Sounds.swift in Sources */,
 				8C51AA002950FA10000274D8 /* AiOAlarmApp.swift in Sources */,
