@@ -15,7 +15,7 @@
 		8C51AA1B2950FA13000274D8 /* AiOAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */; };
 		8C51AA1D2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */; };
 		8C51AA2A2950FAC4000274D8 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA292950FAC4000274D8 /* Alarm.swift */; };
-		8C51AA2E29518B0C000274D8 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2D29518B0C000274D8 /* Sounds.swift */; };
+		8C51AA2E29518B0C000274D8 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2D29518B0C000274D8 /* Sound.swift */; };
 		8C51AA3029518B2B000274D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2F29518B2B000274D8 /* User.swift */; };
 		8C51AA3229522AEF000274D8 /* AlarmNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA3129522AEF000274D8 /* AlarmNotification.swift */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,7 @@
 		8C51AA1A2950FA13000274D8 /* AiOAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmUITests.swift; sourceTree = "<group>"; };
 		8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiOAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C51AA292950FAC4000274D8 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
-		8C51AA2D29518B0C000274D8 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		8C51AA2D29518B0C000274D8 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		8C51AA2F29518B2B000274D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8C51AA3129522AEF000274D8 /* AlarmNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,7 +106,7 @@
 				8C51AA292950FAC4000274D8 /* Alarm.swift */,
 				8C51AA3129522AEF000274D8 /* AlarmNotification.swift */,
 				8C51AA2F29518B2B000274D8 /* User.swift */,
-				8C51AA2D29518B0C000274D8 /* Sounds.swift */,
+				8C51AA2D29518B0C000274D8 /* Sound.swift */,
 				8C51AA012950FA10000274D8 /* ContentView.swift */,
 				8C51AA032950FA13000274D8 /* Assets.xcassets */,
 				8C51AA052950FA13000274D8 /* Preview Content */,
@@ -271,7 +271,7 @@
 			files = (
 				8C51AA3229522AEF000274D8 /* AlarmNotification.swift in Sources */,
 				8C51AA022950FA10000274D8 /* ContentView.swift in Sources */,
-				8C51AA2E29518B0C000274D8 /* Sounds.swift in Sources */,
+				8C51AA2E29518B0C000274D8 /* Sound.swift in Sources */,
 				8C51AA002950FA10000274D8 /* AiOAlarmApp.swift in Sources */,
 				8C51AA3029518B2B000274D8 /* User.swift in Sources */,
 				8C51AA2A2950FAC4000274D8 /* Alarm.swift in Sources */,

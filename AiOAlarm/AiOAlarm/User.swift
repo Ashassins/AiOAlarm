@@ -17,7 +17,7 @@ class User {
 //    var allowSound = false
     var alarms : [Alarm]
     var isFriends : Bool?
-    
+    var friendsList: [User]
     func setSpotifyPremium(val : Bool) {
         self.spotifyPremium = val
     }
@@ -37,8 +37,9 @@ class User {
 //    }
 //
     
-    init (alarms: [Alarm]) {
+    init (alarms: [Alarm], friendsList: [User]) {
         self.alarms = []
+        self.friendsList = []
     }
 }
 

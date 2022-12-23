@@ -14,12 +14,22 @@ class Alarm { // inherits from EKObject?
     var uuid = UUID()
     var name: String = ""
     var date: Date = Date() // Military time, based on user's local time I want this to default to 8am
-    var hour: Int = 8 // defaults to 8 AM alarm
-    var minute: Int = 0
-    var second: Int = 0
+//    var hour: Int = 8 // defaults to 8 AM alarm
+//    var minute: Int = 0
+//    var second: Int = 0
     var repetitions : [Bool] // Sat - Sun
-    var sound: String = "" // TBD // var soundname in EKAlarm (is an NSSound object)
+    
+    // Consider switching to storing a sound index instead
+    var sound: Sound? // TBD // var soundname in EKAlarm (is an NSSound object)
+    var soundName: String = "" // TEMP
+    
+    
 //     var playlist: Int? // TBD
+    var strobe = false // bool: does it strobe your flashlight
+    var vibration = false
+    private var createdBy: User //USER
+    static var createdDate: Date = Date()
+    var modified = false // has this alarm been modified before
     var isOnOff = false
     {
         didSet{
@@ -30,16 +40,18 @@ class Alarm { // inherits from EKObject?
                    }
                }
     }
-    var strobe = false // bool: does it strobe your flashlight
-    var vibration = false
-//     var createdBy; //USER
-    //static var createdDate: Date
-    var modified = false // has this alarm been modified before
+   
 
-    init(id: Int, name: String, repetitions: [Bool]) {
-        self.id = 1
+    init(id: Int, name: String, repetitions: [Bool], sound: Sound, createdBy: User) {
+        self.id = id
         self.name = "Alarm \(id)"
         self.repetitions = [false, false, false, false, false, false, false]
+        self.sound = sound
+        self.createdBy = createdBy
+    }
+    
+    private func setCreatedBy (value : User) {
+        self.createdBy = value
     }
     
 }
