@@ -18,6 +18,7 @@
 		8C51AA2E29518B0C000274D8 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2D29518B0C000274D8 /* Sound.swift */; };
 		8C51AA3029518B2B000274D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA2F29518B2B000274D8 /* User.swift */; };
 		8C51AA3229522AEF000274D8 /* AlarmNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C51AA3129522AEF000274D8 /* AlarmNotification.swift */; };
+		8C51AA3429568D21000274D8 /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = 8C51AA3329568D21000274D8 /* Licenses */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8C51AA2D29518B0C000274D8 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		8C51AA2F29518B2B000274D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8C51AA3129522AEF000274D8 /* AlarmNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmNotification.swift; sourceTree = "<group>"; };
+		8C51AA3329568D21000274D8 /* Licenses */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Licenses; path = "ios-sdk-1.2.2/Licenses"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		8C51A9F32950FA10000274D8 = {
 			isa = PBXGroup;
 			children = (
+				8C51AA3329568D21000274D8 /* Licenses */,
 				8C51A9FE2950FA10000274D8 /* AiOAlarm */,
 				8C51AA0F2950FA13000274D8 /* AiOAlarmTests */,
 				8C51AA192950FA13000274D8 /* AiOAlarmUITests */,
@@ -102,6 +105,7 @@
 		8C51A9FE2950FA10000274D8 /* AiOAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				8C682B1629568E3100F9421B /* Views */,
 				8C51A9FF2950FA10000274D8 /* AiOAlarmApp.swift */,
 				8C51AA292950FAC4000274D8 /* Alarm.swift */,
 				8C51AA3129522AEF000274D8 /* AlarmNotification.swift */,
@@ -137,6 +141,13 @@
 				8C51AA1C2950FA13000274D8 /* AiOAlarmUITestsLaunchTests.swift */,
 			);
 			path = AiOAlarmUITests;
+			sourceTree = "<group>";
+		};
+		8C682B1629568E3100F9421B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C51AA072950FA13000274D8 /* Preview Assets.xcassets in Resources */,
+				8C51AA3429568D21000274D8 /* Licenses in Resources */,
 				8C51AA042950FA13000274D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
