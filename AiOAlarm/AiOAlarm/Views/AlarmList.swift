@@ -15,19 +15,19 @@ class AlarmList : UITableViewCell{
             fatalError("init(coder:) has not been implemented")
     }
 
-    let titleLabel:UILabel = {
+    let titleLabel : UILabel = {
         let tLabel = UILabel()
         tLabel.textColor = .white
         return tLabel
     }()
 
-    let contentLabel:UILabel = {
+    let contentLabel : UILabel = {
        let cLabel = UILabel()
         cLabel.textColor = .lightGray
        return cLabel
     }()
 
-    let chevronView: UIImageView = {
+    let chevronView : UIImageView = {
       let imageView = UIImageView(image: UIImage(systemName: "chevron.right"))
       imageView.tintColor = .lightGray
       return imageView

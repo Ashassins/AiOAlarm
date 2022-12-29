@@ -21,6 +21,7 @@
 		8C51AA3429568D21000274D8 /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = 8C51AA3329568D21000274D8 /* Licenses */; };
 		8C682B182958FDDC00F9421B /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C682B172958FDDC00F9421B /* MainPage.swift */; };
 		8C682B1A2958FE0D00F9421B /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C682B192958FE0D00F9421B /* AlarmList.swift */; };
+		8C682B1E29592D5900F9421B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C682B1D29592D5900F9421B /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8C51AA3329568D21000274D8 /* Licenses */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Licenses; path = "ios-sdk-1.2.2/Licenses"; sourceTree = "<group>"; };
 		8C682B172958FDDC00F9421B /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		8C682B192958FE0D00F9421B /* AlarmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
+		8C682B1D29592D5900F9421B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				8C51AA292950FAC4000274D8 /* Alarm.swift */,
 				8C51AA3129522AEF000274D8 /* AlarmNotification.swift */,
 				8C51AA2F29518B2B000274D8 /* User.swift */,
+				8C682B1D29592D5900F9421B /* AppDelegate.swift */,
 				8C51AA2D29518B0C000274D8 /* Sound.swift */,
 				8C51AA012950FA10000274D8 /* ContentView.swift */,
 				8C51AA032950FA13000274D8 /* Assets.xcassets */,
@@ -290,6 +293,7 @@
 				8C51AA3229522AEF000274D8 /* AlarmNotification.swift in Sources */,
 				8C51AA022950FA10000274D8 /* ContentView.swift in Sources */,
 				8C51AA2E29518B0C000274D8 /* Sound.swift in Sources */,
+				8C682B1E29592D5900F9421B /* AppDelegate.swift in Sources */,
 				8C682B1A2958FE0D00F9421B /* AlarmList.swift in Sources */,
 				8C51AA002950FA10000274D8 /* AiOAlarmApp.swift in Sources */,
 				8C51AA3029518B2B000274D8 /* User.swift in Sources */,
