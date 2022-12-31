@@ -18,6 +18,8 @@ class User {
     var alarms : [Alarm]
     var isFriends : Bool?
     var friendsList: [User]
+    
+//    var colorChoice // TODO : Add color preferences
     func setSpotifyPremium(val : Bool) {
         self.spotifyPremium = val
     }

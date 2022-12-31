@@ -7,5 +7,6 @@
 
 import Foundation
 class UserSettings {
+    var signedIn = false
     
 }
