@@ -15,8 +15,7 @@ class Sound {
     }
     var soundID = UUID()
     var soundName : String = ""
-    //soundName = UILocalNotificationDefaultSoundName;
-    //var playlist: Int? // TBD
+     //var playlist: Int? // TBD
     var type: SoundType
     var filepath : String = ""
     var sound = kSystemSoundID_Vibrate // temp
@@ -26,7 +25,7 @@ class Sound {
     }
     
     func setType (value : Sound.SoundType) {
-        this.type = value
+        self.type = value
     }
     
     func setSound (soundType : Sound.SoundType) {
