@@ -9,5 +9,8 @@ import Foundation
 import UIKit
 
 class MainPage {
+    // bottom toolbar
+    
+    // page selector
     
 }
