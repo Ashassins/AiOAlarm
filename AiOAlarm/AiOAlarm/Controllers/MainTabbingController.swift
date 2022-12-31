@@ -22,6 +22,7 @@ class MainTabbingController: UITabBarController {
         let alarmList = UINavigationController(rootViewController: AlarmListController())
 //        let userSettings =
 //        let timerPage =
+//        let friendsList =
         
         alarmList.title = "Alarms"
         

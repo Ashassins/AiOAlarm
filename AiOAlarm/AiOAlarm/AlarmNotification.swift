@@ -3,7 +3,8 @@
 //  AiOAlarm
 //
 //  Created by Anna Shen on 12/20/22.
-//  References to AlertClock by 曾子庭 on 2022/5/5.
+//  Heavy References to AlertClock by 曾子庭 on 2022/5/5.
+//  Planning to refactor so that I understand how this works
 
 import Foundation
 import NotificationCenter

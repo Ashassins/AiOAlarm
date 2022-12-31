@@ -23,18 +23,18 @@ class Alarm { // inherits from EKObject?
 // Probably remove these
 //    var strobe = false // bool: does it strobe your flashlight
 //    var vibration = false
-    private var createdBy: User //USER
+    private var createdBy: User? //USER
     static var createdDate: Date = Date()
     var modified = false // has this alarm been modified before
     var isOnOff = false
     {
         didSet{
-                   if isOnOff{
-                       AlarmNotification.addRequest(alarm: self)
-                   } else{
-                       UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
-                   }
-               }
+           if isOnOff{
+               AlarmNotification.addRequest(alarm: self)
+           } else {
+               UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+           }
+       }
     }
    
     init(id: Int, name: String, repetitions: [Bool], sound: Sound, createdBy: User) {

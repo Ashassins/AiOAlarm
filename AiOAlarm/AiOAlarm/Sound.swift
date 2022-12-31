@@ -10,6 +10,9 @@ import MediaPlayer
 import AudioToolbox // might not need, but idk
 
 class Sound {
+    enum SoundType {
+        case None, File, Spotify, Apple, Vibration, Strobe, BuiltIn
+    }
     var soundID = UUID()
     var soundName : String = ""
     //soundName = UILocalNotificationDefaultSoundName;
@@ -18,16 +21,16 @@ class Sound {
     var filepath : String = ""
     var sound = kSystemSoundID_Vibrate // temp
     
-    func playSound() {
-        AudioServicesPlaySystemSound(self.sound) // temp
+    init (type: SoundType) {
+        self.type = SoundType.None // Get Default
     }
     
-    enum SoundType {
-        case None, File, Spotify, Apple, Vibration, Strobe, BuiltIn
+    func setType (value : Sound.SoundType) {
+        this.type = value
     }
     
-    func setSound () {
-        switch (self.type) {
+    func setSound (soundType : Sound.SoundType) {
+        switch (soundType) {
             case .None: break
             case .File: break
             case .Spotify: break
@@ -38,7 +41,15 @@ class Sound {
         }
     }
     
-    init (type: SoundType) {
-        self.type = SoundType.None // Get Default
+    func playSound() {
+        AudioServicesPlaySystemSound(self.sound) // temp
+    }
+    
+    func setFilepath (value : String) {
+        self.filepath = value
+    }
+    
+    func setSoundName (value : String) {
+        self.soundName = value
     }
 }
