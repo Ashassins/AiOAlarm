@@ -29,7 +29,7 @@ class Sound {
     }
     
     func setSound (soundType : Sound.SoundType) {
-        switch (soundType) {
+        switch (soundType) { // TODO: this. 
             case .None: break
             case .File: break
             case .Spotify: break

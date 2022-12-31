@@ -19,7 +19,7 @@ class Alarm { // inherits from EKObject?
     
     // Consider switching to storing a sound index instead
     var sound: Sound? // TBD // var soundname in EKAlarm (is an NSSound object)
-    var soundName: String = "" // TEMP
+//    var soundName: String = "" // TEMP
 // Probably remove these
 //    var strobe = false // bool: does it strobe your flashlight
 //    var vibration = false
@@ -61,5 +61,13 @@ class Alarm { // inherits from EKObject?
     
     func setOnOff(value : Bool) {
         self.isOnOff = value
+    }
+    
+    func setName (value : String) {
+        self.name = value
+    }
+    
+    func setModified () {
+        self.modified = true
     }
 }

@@ -18,8 +18,8 @@ class AlarmNotification {
         content.title = "Clock"
         content.subtitle = "Alarm"
         content.categoryIdentifier = "alarm"
-        content.sound = UNNotificationSound(named: UNNotificationSoundName(alarm.soundName)) // FLAG : this probably isnt right
-        
+//        content.sound = UNNotificationSound(named: UNNotificationSoundName(alarm.sound.soundName)) // FLAG : this probably isnt right
+// TODO: soundName for UNNotification stuff alarm.sound.name??
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: alarm.date)
         let minute = calendar.component(.minute, from: alarm.date)
